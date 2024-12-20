@@ -1,0 +1,80 @@
+/**
+ * Colors
+ * -------------------------------------------------------------------------- */
+:root {
+  --vp-c-brand-1: hsl(186, 55.70%, 38.00%);
+  --vp-c-brand-2: hsl(182, 56.30%, 55.10%);
+  --vp-c-brand-3: hsl(172, 56.30%, 44.90%);
+  --vp-c-brand-soft: rgba(98, 133, 208, 0.16);
+}
+
+/**
+   * Component: Home
+   * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    hsl(202, 55.70%, 38.00%) 30%,
+    hsl(198, 55.90%, 60.00%)
+  );
+  --vp-home-hero-image-background-image: linear-gradient(
+    120deg,
+    hsl(194, 56.30%, 44.90%) 30%,
+    hsl(181, 55.70%, 38.00%)
+  );
+
+  --vp-home-hero-image-filter: blur(40px);
+}
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(56px);
+  }
+}
+
+@media (min-width: 960px) {
+  :root {
+    --vp-home-hero-image-filter: blur(72px);
+  }
+}
+
+.md-center > p {
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  margin-right: -4px;
+  margin-top: -4px;
+}
+.md-center img {
+  display: inline-block;
+  margin-right: 4px;
+  margin-top: 4px;
+  height: 1.4em;
+  line-height: 1.6;
+}
+.md-center2 img {
+  display: inline-block;
+  margin-right: 4px;
+  margin-top: 4px;
+}
+
+.busuanzi_container {
+  opacity: 0.3;
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 960px) {
+  .busuanzi_container {
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 12px;
+  }
+}
+@media (min-width: 961px) {
+  .busuanzi_container {
+    height: 60px;
+    line-height: 60px;
+  }
+}
