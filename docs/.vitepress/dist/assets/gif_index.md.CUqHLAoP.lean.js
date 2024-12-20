@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.D3xnaaT3.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"gif/index.md","filePath":"gif/index.md","lastUpdated":1734704359000}'),n={name:"gif/index.md"};function r(i,o,s,d,c,p){return a(),t("div")}const m=e(n,[["render",r]]);export{_ as __pageData,m as default};
