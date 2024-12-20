@@ -20,7 +20,7 @@ docs/.vitepress/theme
 ## gitee
 
 git remote add gitee https://gitee.com/uglyp/q-uniapp-docs.git
-git push -u gitee "main"
+git push -u gitee "master"
 
 ## 提示
 
